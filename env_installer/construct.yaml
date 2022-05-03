@@ -11,6 +11,7 @@ channels:
   # when the end user adds the channel without the full URL
   # - https://conda.anaconda.org/conda-forge
   - conda-forge
+  - pepijndevos
 
 write_condarc: True
 # keep pkgs for space-saving implications for hardlinks when create new environments
@@ -29,6 +30,10 @@ specs:
   - pip
   - python 3.8*
   - scipy
+  - pyttoresque
+  - ngspicesimserver
+  - jupyterlab-mosaic
+  - couchdb
 
 default_prefix: "%APPDATA%\\jupyterlab-desktop\\jlab_server"
 default_prefix_all_users: "%APPDATA%\\jupyterlab-desktop\\jlab_server"

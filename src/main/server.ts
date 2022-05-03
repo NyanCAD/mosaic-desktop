@@ -59,6 +59,7 @@ function createLaunchScript(
     'jupyterlab',
     '--no-browser',
     '--expose-app-in-browser',
+    '--Mosaic.couchdb="proxy"',
     `--LabServerApp.schemas_dir="${schemasDir}"`,
     // do not use any config file
     '--JupyterApp.config_file_name=""',
